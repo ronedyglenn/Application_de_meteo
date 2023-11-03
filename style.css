@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .Card{
+    background: linear-gradient(to right, #00E5FF, #1200FF);
+    width: 40%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .search-icon > img{
+    width: 20px;
+    height: 25px;
+    padding: 6px;
+    
+  }
+  .search-icon {
+    margin-top: 10px;
+    border-radius: 50px;
+    border: none;
+    position: relative;
+    top: 12px;
+  }
+  
+  #bar{
+    padding: 15px;
+    width: 350px;
+    height: 10px;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border: none;
+  }
+  
+  .referencies{
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .referencies .degree{
+    font-size: 60px;
+    color: aliceblue;
+  }
+  
+  .referencies .country{
+    color: aliceblue;
+    font-size: 36px;
+  }
+  
