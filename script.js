@@ -48,7 +48,7 @@ if(data.weather[0].main == "Rain"){
   img.src="images/snow.png"
 }
 
-if(pays.value !== data.name){
+if(pays.value === false){
   alert("Le nom de ce pays ou de cette ville est introuvable !")
 }
 
