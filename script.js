@@ -48,9 +48,8 @@ if(data.weather[0].main == "Rain"){
   img.src="images/snow.png"
 }
 
-if(pays.value === false){
+if(!pays.value){
   alert("Le nom de ce pays ou de cette ville est introuvable !")
 }
-
   });
 })
