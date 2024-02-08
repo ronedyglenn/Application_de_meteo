@@ -72,9 +72,5 @@ boutton.addEventListener("click", (e)=>{
       img.src="images/snow.png"
     }
 
-    //gestion d'erreur.
-    if(!pays.value){
-      alert("Le nom de ce pays ou de cette ville est introuvable !")
-    }
       });
 })
