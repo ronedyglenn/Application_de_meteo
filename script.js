@@ -73,7 +73,7 @@ boutton.addEventListener("click", (e)=>{
     }
 
     //gestion d'erreur.
-    if(pays.value){
+    if(!pays.value){
       alert("Le nom de ce pays ou de cette ville est introuvable !")
     }
       });
